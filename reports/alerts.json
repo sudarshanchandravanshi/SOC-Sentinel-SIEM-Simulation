@@ -1,0 +1,41 @@
+[
+  {
+    "alert_id": "AUTH-FAIL-001",
+    "rule": "Repeated authentication failures",
+    "severity": "medium",
+    "source_ip": "203.0.113.10",
+    "first_seen": "2026-10-10T09:00:00Z",
+    "last_seen": "2026-10-10T09:04:00Z",
+    "failure_count": 5,
+    "usernames": [
+      "alex"
+    ],
+    "evidence": "At least the configured threshold of failed logins occurred within the configured time window.",
+    "recommended_triage": [
+      "Validate whether the source IP and login pattern are expected.",
+      "Review identity-provider, VPN, MFA, and endpoint logs for related activity.",
+      "Check whether any account was successfully accessed and assess scope.",
+      "Escalate through the organization's approved incident process if suspicious."
+    ]
+  },
+  {
+    "alert_id": "AUTH-SUCCESS-002",
+    "rule": "Successful login after repeated failures",
+    "severity": "high",
+    "source_ip": "203.0.113.10",
+    "first_seen": "2026-10-10T09:00:00Z",
+    "last_seen": "2026-10-10T09:05:00Z",
+    "failure_count": 5,
+    "usernames": [
+      "alex"
+    ],
+    "successful_username": "alex",
+    "evidence": "A successful login followed a burst of authentication failures from the same source IP.",
+    "recommended_triage": [
+      "Prioritize validation of the successful login and account owner.",
+      "Review MFA results, device details, session activity, and sign-in context.",
+      "Determine whether the failures and success belong to the same legitimate user.",
+      "Follow the approved escalation and containment process if compromise is suspected."
+    ]
+  }
+]

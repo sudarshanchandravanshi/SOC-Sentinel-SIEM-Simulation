@@ -1,0 +1,114 @@
+2025-06-08 14:13:27 UTC
+Windows-10-10.0.26100
+Ren'Py 8.3.4.24120703
+
+Summertime Saga
+21.0.0-wip.5791
+Built at 2025-04-01 20:11:05 UTC
+
+Early init took 0.17s
+Loading error handling took 0.10s
+Loading script took 1.52s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.01s
+Set script version to: (8, 3, 4)
+Running init code took 1.16s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.02s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.15s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.44s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Interface start took 1.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9805'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Could not open 'cache/shaders.txt':
+Maximum texture size: 4096x4096
+src/plot/deb04.rpyc:69: missing art/cast/jenny/face/stand/normal/idle/w/angry.png
+
+Full traceback:
+  File "src/plot/deb04.rpyc", line 180, in script
+  File "renpy/ast.py", line 1849, in execute
+  File "renpy/python.py", line 1209, in py_eval
+  File "renpy/python.py", line 1202, in py_eval_bytecode
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+While running game code:
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+Full traceback:
+  File "src/plot/deb04.rpyc", line 180, in script
+  File "renpy/ast.py", line 1849, in execute
+  File "renpy/python.py", line 1209, in py_eval
+  File "renpy/python.py", line 1202, in py_eval_bytecode
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+While running game code:
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+Full traceback:
+  File "src/plot/deb04.rpyc", line 180, in script
+  File "renpy/ast.py", line 1849, in execute
+  File "renpy/python.py", line 1209, in py_eval
+  File "renpy/python.py", line 1202, in py_eval_bytecode
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+While running game code:
+  File "game/src/plot/deb04.rpy", line 180, in <module>
+NameError: name 'fast' is not defined
+
+Full traceback:
+  File "src/plot/deb04.rpyc", line 202, in script
+  File "renpy/ast.py", line 1849, in execute
+  File "renpy/python.py", line 1209, in py_eval
+  File "renpy/python.py", line 1202, in py_eval_bytecode
+  File "game/src/plot/deb04.rpy", line 202, in <module>
+NameError: name 'fast' is not defined
+
+While running game code:
+  File "game/src/plot/deb04.rpy", line 202, in <module>
+NameError: name 'fast' is not defined
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.01s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+src/plot/deb19.rpyc:233: missing art/cast/debbie/face/sleep_awake/normal/lip/ssw/shy.png
